@@ -1,0 +1,427 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https:// fonts.googleapis.com/css? family=Poppins:400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Patrick+Hand & family= Shadows+Into+Light & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@300&family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 90%;
+    /*max-width: 1200px;*/
+    margin: auto;
+    
+}
+
+.bg_animate{
+    width: 100%;
+    height: 100vh;
+    background-color:black;  
+}
+#fijo{
+    top: -15px;
+    right: 0px;
+    position: fixed; z-index: 1;;
+    width: 150%;
+    height: 13%;
+    background-color: black;
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    height: 100%;
+
+}
+.banner img{
+    width: 350px;
+    height: 682%;
+    position: relative;
+    top: -195px;
+    left: 690px;
+    animation: movimiento 2.5s linear infinite;
+
+}
+.baner_tittle{
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    position: relative;
+    top: 150px;
+    font-family: 'Comfortaa', cursive;
+
+
+}
+
+/*navegador*/
+ul{
+    list-style: none;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+
+}
+li{
+    float: right;
+    color:#FEB139;
+    font-size: 19px;
+}
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    padding: 14px 16px;  
+    
+}
+li:hover{
+    color: #0093AB;
+    background-color: #fd5df2;
+    font-size: 25px;
+}
+#parte1{
+    width: 100%;
+    height: 550px;
+   /* background-color: #E9EFC0;*/
+   background-image: url(../img/imagen_estrellas.jpg);
+}
+#parte2{
+    width: 100%;
+    height: 550px;
+   /* background-color: #E9EFC0;*/
+   background-image: url(../img/imagen_estrellas.jpg);
+}
+
+#parte1_0{
+    width: 65%;
+    height: 350px;
+    background-color: #B7E5DD;
+    position: relative;
+    top: 85px;
+    left: 395px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px 4px #444 ;;
+}
+#circulo{
+    position: absolute;
+    top: 66px;
+    left: 500px;
+    width: 280px;
+    height: 65%;
+    border-radius: 50%;
+    border:4px solid #187498;
+}
+#circulo:hover{
+    box-shadow: 10px 10px 6px #413F42;
+    width: 295px;
+    height: 75%;
+    left: 500px;
+    top: 60px;
+}
+#parte1_2{
+    position: absolute;
+    top: 740px;
+    left: 130px;
+    width: 25%;
+
+}
+#parte2_0{
+    width: 300px;
+    height: 70%;
+    background-color: #E6BA95;
+    position: relative;
+    top: 110px;
+    left: 120px;
+    border-radius: 20px;
+}
+#parte2_0:hover{
+    background: radial-gradient(circle, rgba(240,147,188,1) 0%, rgba(148,187,233,1) 100%);
+}
+.star-widget .estrellas{
+    display: none;
+
+}
+.star-widget label{
+    font-size: 20px;
+    color: #444;
+    padding: 10px;
+    position: relative;
+    top: 340px;
+    left: 30px;
+    transition: all 0.2s ease;
+}
+.star-widget label:hover{
+    color: #fd4;
+    text-shadow: 0 0 20px #952;
+}
+.estrellas:checked form{
+    display: block;
+}
+#mision{
+ padding: 0px  10px 0px 10px;
+ font-size: 17px;
+ text-align: justify;
+ position: absolute;
+ top: 170px;
+ margin: 4px 4px 4px 4px;
+ color: white;
+ font-family: 'Indie Flower', cursive;
+ font-family: 'Open Sans', sans-serif;
+ font-family: 'Patrick Hand', cursive;
+ font-family: 'Shadows Into Light', cursive;
+}
+#parte2_1{
+    width: 300px;
+    height: 70%;
+    background-color: #85586F;
+    position: relative;
+    top: -270px;
+    left: 510px;
+    border-radius: 20px;
+}
+#parte2_1:hover{
+    background: radial-gradient(circle, rgba(240,147,188,1) 0%, rgba(148,187,233,1) 100%);
+}
+#vision{
+    padding: 0px  10px 0px 10px;
+    font-size: 17px;
+    text-align: justify;
+    position: absolute;
+    top: 190px;
+    margin: 2px 4px 4px 4px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Shadows Into Light', cursive;
+   }
+   #parte2_2{
+    width: 300px;
+    height: 70%;
+    background-color: #9BA3EB;
+    position: relative;
+    top: -650px;
+    left: 890px;
+    border-radius: 20px;
+}
+#parte2_2:hover{
+    background: radial-gradient(circle, rgba(240,147,188,1) 0%, rgba(148,187,233,1) 100%);
+}
+#valores{
+    padding: 0px  10px 0px 10px;
+    font-size: 17px;
+    text-align: justify;
+    position: absolute;
+    top: 170px;
+    margin: 4px 4px 4px 4px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Shadows Into Light', cursive;
+   }
+   #parte4{
+    width: 100%;
+    height: 550px;
+    /*background-color: #E9EFC0;*/
+    background-image: url(../img/imagen_estrellas.jpg);
+    }
+    #glassmorfismo{
+        width: 40%;
+        padding: auto 3rem;
+        height: 400px;
+        margin: 0px auto;
+        position: relative;
+        top: 90px;
+        left: -250px;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, .30);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+        backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, .18);
+        color: white;
+        font-family: 'Comfortaa', cursive;
+        text-align: center;
+    }
+    input[type=text]{
+        width: 90%;
+        margin: 10px;
+        box-sizing: border-box;
+        padding: 12px 20px;
+    }
+    input[type=email]{
+        width: 90%;
+        margin: 8px 5px;
+        padding: 12px 20px ;
+        box-sizing: border-box;
+    
+    }
+    input[type=email]:focus{
+        border: solid 3px #FD5D5D;
+        font-size:  32px;
+      
+    }
+    input[type=password]{
+        width: 90%;
+        margin: 8px 5px;
+        padding: 12px 20px ;
+        box-sizing: border-box;
+    
+    }
+    input[type=submit]{
+        background-color: #FEB139;
+        color: #A64B2A;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 10px 10px 6px black;
+    }
+    input[type=submit]:hover{
+        background-color:#A64B2A ;
+        color:#FEB139;
+        font-size: 2rem;
+        border-radius: 10px;
+        box-shadow: 10px 10px 6px black;
+        text-align: center;
+    }
+    #parte4_1{
+        position: relative;
+        top:-250px;
+        left: 750px;
+        width: 180px;
+        ;
+    }
+    #parte3{
+        width: 100%;
+        height: 550px;
+        
+        
+       background-image: url(../img/imagen_estrellas.jpg);
+    }
+    #objetivos_p{
+        color: white;
+        font-family: 'Indie Flower', cursive;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Patrick Hand', cursive;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 35px;
+        width: 40%;
+        position: absolute;
+        left: 100px;
+        top:1800px;
+        padding: 0;
+        
+
+    }
+    .titulo_servicios{
+        color: #9BA3EB;
+        font-size: 40px ;
+        font-family: 'Comfortaa', cursive;
+        position: relative;
+        top: 30px;
+        left: 100px;
+        width: 500px;
+       
+    }
+    #parte3_0{
+        width: 550px;
+        position: relative;
+        height: 450px;
+        top: 10px;
+        left: 670px;
+        border-radius: 20px;
+        background-color: #EDE6DB;
+    }
+    #img_mision{
+        position:absolute;
+        width: 250px;
+        top: -50px;
+        left: 40px;
+    }
+    #img_vision{
+        position:absolute;
+        width: 250px;
+        height: 200px;
+        top: 10px;
+        left: 30px;
+    }
+    #img_valores{
+        position:absolute;
+        width: 150px;
+        height: 150px;
+        top: 10px;
+        left: 65px;
+    }
+    
+    #titulo2{
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            text-shadow: 2px 2px 4px #FF6363;
+        font-family: 'Comfortaa', cursive;
+    }
+    #publico_meta{
+        color: #E78EA9;
+        font-size: 40px;
+        position: relative;
+        top:50px;
+        left: 130px;
+        width: 300px;
+    font-family: 'Comfortaa', cursive;
+}
+#texto_pm{
+    color: #A64B2A;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    width: 70%;
+    position: absolute;
+    left: 100px;
+    top:150px;
+    padding: 0;
+}
+footer{
+    background-color: #000;
+  }
+
+  footer>span{
+    padding: 0 20px;
+    font-size:1rem;
+    color: #fff;
+    font-family: 'Baloo Bhai', cursive;
+    text-align: right;
+    height: 70px;
+  }
+  #Conocenos_txt{
+    color: #A64B2A;
+    font-size: 20px;
+    position: relative;
+    top:50px;
+    left: 130px;
+    width: 300px;
+    font-family: 'Indie Flower', cursive;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Patrick Hand', cursive;
+        font-family: 'Shadows Into Light', cursive;
+}
+@keyframes movimiento{
+    0%{
+        transform: translateY(0) ;
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
